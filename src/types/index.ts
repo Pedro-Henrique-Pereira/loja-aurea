@@ -1,0 +1,2 @@
+export type Product={id:string;name:string;slug:string;category:string;subcategory:string;gender:'feminino'|'masculino'|'unissex';brand:string;description:string;shortDescription:string;price:number;oldPrice?:number;discount?:number;images:string[];sizes?:string[];colors?:string[];fragranceFamily?:string;volume?:string[];stock:number;rating:number;reviews:number;isNew?:boolean;isFeatured?:boolean;isBestSeller?:boolean};
+export type CartItem={id:string;quantity:number;option?:string};

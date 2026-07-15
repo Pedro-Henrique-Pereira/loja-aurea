@@ -1,0 +1,22 @@
+# Dependências
+node_modules/
+
+# Builds e cache do Next.js
+.next/
+out/
+
+# Arquivos locais e internos
+.env*
+!.env.example
+.agents/
+.codex/
+*.log
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
